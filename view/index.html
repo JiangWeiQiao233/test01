@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+
+    <link rel="stylesheet" href="../public/lib/bootstrap-3.3.7/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../public/css/main.css">
+</head>
+<body>
+    <div class="header container">
+        <div class="page-header">
+            <h1>Message Book<small>留言本</small></h1>
+            <a href="./post" class="btn btn-success">发表留言</a>
+        </div>
+    </div>
+    
+    <div class="glyphicon-comment container">
+        <ul class="list-group">
+            {{each comments}}
+            <li class="list-group-item">
+                <div class="name">{{$value.name}}</div>说：{{$value.message}}
+                <span class="pull-right">{{$value.dataTime}}</span></li>
+            {{/each}}
+        </ul>
+    </div>
+
+    <script src="../public/js/main.js"></script>
+</body>
+</html>

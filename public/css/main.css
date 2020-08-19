@@ -1,0 +1,21 @@
+body{
+    background: url("../../public/img/bgimg01.jfif");
+}
+
+input[type = 'text'],
+textarea#message{
+    margin-bottom: 30px;
+}
+
+textarea#message{
+    height: 16em;
+    resize: none;
+}
+
+.name{
+    display: inline-block;
+    width: 8%;
+}
+li{
+    margin-top: 3px;
+}
