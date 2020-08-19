@@ -32,7 +32,7 @@ http
     var myurl = obj.pathname //该路径不包含问好之后的那些内容
 
     if(myurl === '/'){
-      fs.readFile('./view/html/index.html',function (err ,data) {
+      fs.readFile('./view/index.html',function (err ,data) {
         if(err){
           return res.end('404 Not Found.')
         }
@@ -54,7 +54,7 @@ http
 
 
     }else if (myurl.indexOf('/post') === 0) {
-      fs.readFile('./view/html/post.html',function (err ,data) {
+      fs.readFile('./view/post.html',function (err ,data) {
         if(err){
           return res.end('404 Not Found.')
         }
@@ -68,7 +68,7 @@ http
         res.end(data)
       })
     }else {
-      fs.readFile('./view/html/404.html',function (err, data) {
+      fs.readFile('./view/404.html',function (err, data) {
         if(err){
           return res.end('404 Not Found.')
         }
