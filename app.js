@@ -6,7 +6,7 @@ var url = require('url')
 var comments = [
   {
     name: '王朗',
-    message: '国安民乐，岂不美哉？',
+    message: '……国安民乐，岂不美哉？',
     dataTime: '2020-8-16'
   },
   {
@@ -15,12 +15,12 @@ var comments = [
     dataTime: '2020-8-16'
   },{
     name: '王司徒',
-    message: '你敢！',
+    message: '诸葛村夫，你敢！',
     dataTime: '2020-8-16'
   },
   {
     name: '诸葛亮',
-    message: '我从未见过有如此后滩无耻之人！！',
+    message: '住口！我从未见过有如此厚颜无耻之人！！',
     dataTime: '2020-8-16'
   }
 ]
