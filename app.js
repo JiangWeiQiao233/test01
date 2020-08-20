@@ -48,7 +48,7 @@ http
 
       var mes = obj.query
       var nowdate = new Date()
-      mes.dataTime = nowdate.getFullYear()+'-'+nowdate.getMonth()+'-'+nowdate.getDate()
+      // mes.dataTime = nowdate.getFullYear()+'-'+nowdate.getMonth()+'-'+nowdate.getDate()
       comments.push(mes)
       res.statusCode = 302
       res.setHeader('Location','/')
