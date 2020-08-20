@@ -2,6 +2,8 @@ var http = require('http')
 var fs = require('fs')
 var template = require('art-template')
 var url = require('url')
+var express = require('express')
+
 
 var comments = [
   {
